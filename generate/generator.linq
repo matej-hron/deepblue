@@ -10,6 +10,7 @@ Dictionary<string, string> pageMap = new Dictionary<string, string> {
 	["kontakty.html"] = "content_kontakty.html",
 	["kurzp1.html"] = "content_p1.html",
 	["kurzp2.html"] = "content_p2.html",
+	["kurzp3.html"] = "content_p3.html",
 
 };
 
