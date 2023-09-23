@@ -82,4 +82,66 @@ body {font-family: "Lato", sans-serif}
       <h3>Každou neděli pohoda na bazénu</h3>
       <p><b>Potápění s přístrojem, freediving, plavání, sauna a nakonec .... pivo.</b></p>    
     </div>
+  </div><div class="w3-container w3-content w3-justify w3-padding-64" style="max-width:800px" id="p1">
+
+    <h2 class="w3-wide">Lékařská prohlídka</h2>
+  
+    <p>Bezpečnostní směrnice SPČR vyžadují, aby měl potápěč platnou lékařskou prohlídku ne starší než 1
+        rok.</p>
+    <p>Potvrzení o zdravotní způsobilosti Vám může vystavit Váš praktický lékař.</p>
+    <p>Doporučujeme absolvovat speciální potápěčskou prohlídku, kterou Vám udělají například v centru
+        zátěžové medicíny, Salmovská 5 (nedaleko Karlova náměstí).</p>
+    <p>Objednat se můžete na tel.: 224 965 720</p>
+    <p>Budete s sebou potřebovat potvrzení od očního lékaře a ORL lékaře, že Vám z jejich pohledu nic
+        nebrání v potápění, dále sportovní oděv a obuv (kvůli zátěžovému testu) a ručník (kvůli testu diving-
+        reflexu – připravte se na to, že ponoříte obličej do ledové vody).</p>
+    <p>Za uvedené prohlídky se platí – aktuální informace podá příslušný lékař.</p>
+    <p>Potápěčům také doporučujeme vyšetření na PFO. Informace o problematice PFO v potápění
+        naleznete na http://www.stranypotapecske.cz/teorie/pfo.asp.</p>
+    <p>Lékařská prohlídka je podmínkou pro absolvování jakéhokoli kurzu.</p>
+
   </div>
+<!-- End Page Content -->
+</div>
+
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
