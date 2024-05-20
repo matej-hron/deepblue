@@ -7,6 +7,7 @@ string root = @"c:\src\deepblue\generate\";
 Dictionary<string, string> pageMap = new Dictionary<string, string> {
 	["index.html"] = "content_index.html",
 	["aktualne.html"] = "content_aktualne.html",
+	["kamenice.html"] = "content_kamenice.html",
 	["clenstvi.html"] = "content_clenstvi.html",
 	["lekar.html"] = "content_lekar.html",
 	["lekar.html"] = "content_lekar.html",
